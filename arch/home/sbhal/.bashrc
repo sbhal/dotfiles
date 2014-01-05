@@ -7,8 +7,6 @@
 
 alias ls='ls --color=auto'
 
-
-
 # locale-gen
 export LANG=en_US.UTF-8
 
@@ -20,7 +18,7 @@ alias df='df -h'
 alias du='du -c -h'
 alias mkdir='mkdir -p -v'
 alias nano='nano -w'
-alias ping='ping -c 5'
+alias ping='ping -c 3'
 alias dmesg='dmesg -HL'
 # }}}
 
@@ -248,3 +246,9 @@ alias screenshotSelective='gm import root screenshot.jpg && feh screenshot.jpg'
 
 #dropbox 
 dropbox_remove_cache='rm -r ~/Dropbox/.dropbox.cache/*'
+
+#git completion bash
+source /usr/share/git/completion/git-completion.bash
+
+#dotfiles update
+alias dotfileupdate="/usr/bin/bash /home/sbhal/Dropbox/dotfiles/scripts/backup.sh && git add --all && git commit -a && git push"
