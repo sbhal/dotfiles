@@ -1,11 +1,22 @@
 #
 # ~/.bashrc
 #
+# /etc/profile -> /etc/profile.d/* -> starting of (~/.bash_profile & ~/.bashrc) -> startx -> rest of (~/.bash_profile & ~/.bashrc)
+# startx -> ~/.xinitrc
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
+if [[ $debug_bash == "true" ]]; then
+    echo "*** /home/sbhal/.bashrc ***"
+fi
+
+alias vi='vim'
+alias g='gvim'
+alias brc='vim /home/sbhal/.bashrc'
+#alias startx='startx &> '/home/sbhal/.Xoutput''
+#start emacs maximized
+alias emacs='emacs -mm'
 
 # locale-gen
 export LANG=en_US.UTF-8
@@ -251,4 +262,4 @@ dropbox_remove_cache='rm -r ~/Dropbox/.dropbox.cache/*'
 source /usr/share/git/completion/git-completion.bash
 
 #dotfiles update
-alias dotfileupdate="/usr/bin/bash /home/sbhal/Dropbox/dotfiles/scripts/backup.sh && git add --all && git commit -a && git push"
+alias dotfileupdate="cd /home/sbhal/Dropbox/dotfiles && /usr/bin/bash /home/sbhal/Dropbox/dotfiles/scripts/backup.sh && git add --all && git commit -a && git push"

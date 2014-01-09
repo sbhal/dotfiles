@@ -1,0 +1,71 @@
+[global_config]
+  window_state = fullscreen
+  enabled_plugins = CustomCommandsMenu, InactivityWatch, ActivityWatch, Logger
+  focus = system
+  always_on_top = True
+  borderless = True
+  tab_position = bottom
+  inactive_color_offset = 1.06
+[keybindings]
+  hide_window = <Ctrl>grave
+  split_horiz = <Alt>minus
+  full_screen = <Alt>Return
+  new_window = None
+  new_terminator = None
+  split_vert = <Alt>backslash
+  paste = <Shift>Insert
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    font = ProggyCleanTT 12
+    visible_bell = True
+    background_image = None
+    background_darkness = 1.08
+    scrollback_lines = 1172
+    use_system_font = False
+    foreground_color = "#000000"
+    show_titlebar = False
+    copy_on_selection = True
+    background_color = "#f0f0f0"
+    scrollback_infinite = True
+  [[solarized-dark-web]]
+    palette = "#073642:#d30102:#859900:#b58900:#6c71c4:#d33682:#2aa198:#839496:#586e75:#cb4b16:#859900:#b58900:#268bd2:#d33682:#2aa198:#93a1a1"
+    background_color = "#eee8d5"
+    background_image = None
+    cursor_color = "#002b36"
+    foreground_color = "#002b36"
+  [[Night]]
+    scrollbar_position = hidden
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    background_image = None
+    use_system_font = False
+    foreground_color = "#000000"
+    show_titlebar = False
+    font = Consolas 11
+    background_color = "#f0f0f0"
+    scrollback_infinite = True
+  [[solarized]]
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    background_darkness = 0.83
+    background_type = transparent
+    background_image = None
+    foreground_color = "#839496"
+    copy_on_selection = True
+    background_color = "#002b36"
+    scrollback_infinite = True
+  [[solarized-dark-new]]
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    background_image = None
+    cursor_color = "#eee8d5"
+    foreground_color = "#00ff00"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      profile = default
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]

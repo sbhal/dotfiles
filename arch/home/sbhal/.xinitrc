@@ -3,9 +3,21 @@
 # ~/.xinitrc
 #
 # Executed by startx (run your window manager from here)
+# pkill X to kill X server
+# logs are in /var/log/Xorg.0.log
+# always append command with & to reduce the delay before launch display manager
+
+
+#set -x# activate debugging from here
+
+
+# debug echo check
+if [[ $debug_bash == "true" ]]; then
+    echo "*** /home/sbhal/.xinitrc ***"
+fi
 
 # without this terminals spawned from window manager will not be utf-8
-# export LANG="${LANG:-en_US.UTF-8}"
+ export LANG="${LANG:-en_US.UTF-8}"
 
 xset +fp /usr/share/fonts/local
 xset fp rehash
@@ -18,7 +30,7 @@ xset fp rehash
 
 # remap the caps lock key
 [[ -f $HOME/.Xmodmap ]] && xmodmap $HOME/.Xmodmap
-xbindkeys &
+#xbindkeys &
 
 # load Xdefaults/Xresources
 # Xdefaults is deprecated and somehow Xresources
@@ -27,7 +39,6 @@ xbindkeys &
 [[ -f $HOME/.xsession ]] && source $HOME/.xsession
 [[ -f $HOME/.Xpersonal ]] && xrdb -merge $HOME/.Xpersonal
 [[ -f $HOME/.Xfont ]] && xrdb -merge $HOME/.Xfont
-[[ -f $HOME/.bin/color-mode/set-color-mode.sh ]] && source $HOME/.bin/color-mode/set-color-mode.sh
 
 # start xcompmgr so terminals have true transparency
 # xcompmgr -c &
@@ -42,7 +53,9 @@ xbindkeys &
 # xautolock -time 30 -locker slimlock  -notify 8 -notifier "zenity --notification --text 'Locking...' --timeout 1" &
 
 # Start dropbox
-[[ -f $HOME/.dropbox/* ]] && dropboxd &
+[[ -d $HOME/.dropbox ]] && dropboxd &
+# Start batti
+[[ -f /usr/share/applications/batti.desktop ]] && batti &
 
 # Start f.lux to control screen color, remove blue in the evenings
 # xflux -z 99201 &
@@ -52,8 +65,11 @@ xbindkeys &
 # Turn off repeating of '/' key so it can be used for chording
 # xset -r 34
 
-# start Window Manager
+#set +x# stop debugging from here
+
+# start Window Manager should be last command. This is always running script and end only when X is killed.
 #exec xmonad
 #exec bspwm #2> ~/.bspwm.log
 exec awesome
+
 

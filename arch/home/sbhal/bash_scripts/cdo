@@ -1,0 +1,55 @@
+ #!/bin/bash 
+
+function cdo() {
+echo '1. SP .../obj-7k-sup3-sp-earl7'
+echo '2. RP .../obj-7k-sup3-rp-earl7'
+echo '3. RSP.../obj-m8500-sup3-sp-earl7'
+echo '4. RSP.../obj-m8500-sup3-rp-earl7'
+echo '5. x40g../obj-m8500-x40g'
+read OPT_C;
+
+VIEW_NAME=`echo $CLEARCASE_CMDLINE | cut -d' ' -f2`
+
+case "$OPT_C" in
+
+11)  files=("/nobackup/sbhal/build_"$VIEW_NAME"/vob/ios/sys/obj-7k-sup3-sp-earl7");
+    cd "${files[@]}";
+    ;;
+1)  files=("/vob/ios/sys/obj-7k-sup3-sp-earl7");
+    cd "${files[@]}";
+    ;;
+2)  files=("/vob/ios/sys/obj-7k-sup3-rp-earl7");
+    cd "${files[@]}";
+    ;;
+22)  files=("/nobackup/sbhal/build_"$VIEW_NAME"/vob/ios/sys/obj-7k-sup3-rp-earl7");
+    cd "${files[@]}";
+    ;;
+3)  files=("/vob/ios/sys/obj-m8500-sup3-sp-earl7");
+    cd "${files[@]}";
+    ;;
+33)  files=("/nobackup/sbhal/build_"$VIEW_NAME"/vob/ios/sys/obj-m8500-sup3-sp-earl7");
+    cd "${files[@]}";
+    ;;
+4)  files=("/vob/ios/sys/obj-m8500-sup3-rp-earl7");
+    cd "${files[@]}";
+    ;;
+44)  files=("/nobackup/sbhal/build_"$VIEW_NAME"/vob/ios/sys/obj-m8500-sup3-rp-earl7");
+    cd "${files[@]}";
+    ;;
+5)  files=("/vob/ios/sys/obj-m8500-x40g");
+    cd "${files[@]}";
+    ;;
+55)  files=("/nobackup/sbhal/build_"$VIEW_NAME"/vob/ios/sys/obj-m8500-x40g");
+    cd "${files[@]}";
+    ;;
+6)  files=("/vob/ios/sys/obj-m8500-x40g");
+    cd "${files[@]}";
+    ;;
+66)  files=("/nobackup/sbhal/build_"$VIEW_NAME"/vob/ios/sys/obj-m8500-x40g");
+    cd "${files[@]}";
+    ;;
+*)  exit 0
+    ;;
+esac
+}
+

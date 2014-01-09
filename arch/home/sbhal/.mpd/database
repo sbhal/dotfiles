@@ -1,0 +1,186 @@
+info_begin
+format: 1
+mpd_version: 0.18.6
+fs_charset: UTF-8
+tag: Artist
+tag: ArtistSort
+tag: Album
+tag: AlbumArtist
+tag: AlbumArtistSort
+tag: Title
+tag: Track
+tag: Name
+tag: Genre
+tag: Date
+tag: Composer
+tag: Performer
+tag: Disc
+tag: MUSICBRAINZ_ARTISTID
+tag: MUSICBRAINZ_ALBUMID
+tag: MUSICBRAINZ_ALBUMARTISTID
+tag: MUSICBRAINZ_TRACKID
+info_end
+directory: aashiqui2
+mtime: 1388848480
+begin: aashiqui2
+song_begin: [Songs.PK] Aashiqui 2 - 01 - Tum Hi Ho.mp3
+Time: 262
+Artist: Arijit Singh
+AlbumArtist: www.Songs.PK
+Title: Tum Hi Ho - www.Songs.PK
+Album: Aashiqui 2
+Track: 1
+Date: 2013
+Genre: Bollywood Music
+Composer: Music: Mithoon, Jeet Ganguly, Ankit Tiwari
+Performer: www.Songs.PK
+Performer: www.Songs.PK
+mtime: 1388816546
+song_end
+song_begin: [Songs.PK] Aashiqui 2 - 02 - Sunn Raha Hai.mp3
+Time: 390
+Artist: Ankit Tiwari
+AlbumArtist: www.Songs.PK
+Title: Sunn Raha Hai - www.Songs.PK
+Album: Aashiqui 2
+Track: 2
+Date: 2013
+Genre: Bollywood Music
+Composer: Music: Mithoon, Jeet Ganguly, Ankit Tiwari
+Performer: www.Songs.PK
+Performer: www.Songs.PK
+mtime: 1388816546
+song_end
+song_begin: [Songs.PK] Aashiqui 2 - 03 - Chahun Main Ya Naa.mp3
+Time: 305
+Artist: Palak Muchhal
+AlbumArtist: www.Songs.PK
+Title: Chahun Main Ya Naa - www.Songs.PK
+Album: Aashiqui 2
+Track: 3
+Date: 2013
+Genre: Bollywood Music
+Composer: Music: Mithoon, Jeet Ganguly, Ankit Tiwari
+Performer: www.Songs.PK
+Performer: www.Songs.PK
+mtime: 1388816546
+song_end
+song_begin: [Songs.PK] Aashiqui 2 - 04 - Hum Mar Jayenge.mp3
+Time: 307
+Artist: Tulsi Kumar
+AlbumArtist: www.Songs.PK
+Title: Hum Mar Jayenge - www.Songs.PK
+Album: Aashiqui 2
+Track: 4
+Date: 2013
+Genre: Bollywood Music
+Composer: Music: Mithoon, Jeet Ganguly, Ankit Tiwari
+Performer: www.Songs.PK
+Performer: www.Songs.PK
+mtime: 1388816546
+song_end
+song_begin: [Songs.PK] Aashiqui 2 - 05 - Meri Aashiqui.mp3
+Time: 266
+Artist: Palak Muchhal
+AlbumArtist: www.Songs.PK
+Title: Meri Aashiqui - www.Songs.PK
+Album: Aashiqui 2
+Track: 5
+Date: 2013
+Genre: Bollywood Music
+Composer: Music: Mithoon, Jeet Ganguly, Ankit Tiwari
+Performer: www.Songs.PK
+Performer: www.Songs.PK
+mtime: 1388816546
+song_end
+song_begin: [Songs.PK] Aashiqui 2 - 06 - Piya Aaye Na.mp3
+Time: 286
+Artist: K.K.
+AlbumArtist: www.Songs.PK
+Title: Piya Aaye Na - www.Songs.PK
+Album: Aashiqui 2
+Track: 6
+Date: 2013
+Genre: Bollywood Music
+Composer: Music: Mithoon, Jeet Ganguly, Ankit Tiwari
+Performer: www.Songs.PK
+Performer: www.Songs.PK
+mtime: 1388816546
+song_end
+song_begin: [Songs.PK] Aashiqui 2 - 07 - Bhula Dena.mp3
+Time: 241
+Artist: Mustafa Zahid
+AlbumArtist: www.Songs.PK
+Title: Bhula Dena - www.Songs.PK
+Album: Aashiqui 2
+Track: 7
+Date: 2013
+Genre: Bollywood Music
+Composer: Music: Mithoon, Jeet Ganguly, Ankit Tiwari
+Performer: www.Songs.PK
+Performer: www.Songs.PK
+mtime: 1388816546
+song_end
+song_begin: [Songs.PK] Aashiqui 2 - 08 - Aasan Nahin Yahan.mp3
+Time: 214
+Artist: Arijit Singh
+AlbumArtist: www.Songs.PK
+Title: Aasan Nahin Yahan - www.Songs.PK
+Album: Aashiqui 2
+Track: 8
+Date: 2013
+Genre: Bollywood Music
+Composer: Music: Mithoon, Jeet Ganguly, Ankit Tiwari
+Performer: www.Songs.PK
+Performer: www.Songs.PK
+mtime: 1388816546
+song_end
+song_begin: [Songs.PK] Aashiqui 2 - 09 - Sunn Raha Hai - Female.mp3
+Time: 315
+Artist: Shreya Ghoshal
+AlbumArtist: www.Songs.PK
+Title: Sunn Raha Hai - Female - www.Songs.PK
+Album: Aashiqui 2
+Track: 9
+Date: 2013
+Genre: Bollywood Music
+Composer: Music: Mithoon, Jeet Ganguly, Ankit Tiwari
+Performer: www.Songs.PK
+Performer: www.Songs.PK
+mtime: 1388816546
+song_end
+song_begin: [Songs.PK] Aashiqui 2 - 10 - Milne Hai Mujhse Aayi.mp3
+Time: 296
+Artist: Arijit Singh
+AlbumArtist: www.Songs.PK
+Title: Milne Hai Mujhse Aayi - www.Songs.PK
+Album: Aashiqui 2
+Track: 10
+Date: 2013
+Genre: Bollywood Music
+Composer: Music: Mithoon, Jeet Ganguly, Ankit Tiwari
+Performer: www.Songs.PK
+Performer: www.Songs.PK
+mtime: 1388816546
+song_end
+song_begin: [Songs.PK] Aashiqui 2 - 11 - Aashiqui - The Love Theme.mp3
+Time: 163
+Artist: Various Artists
+AlbumArtist: www.Songs.PK
+Title: Aashiqui - The Love Theme - www.Songs.PK
+Album: Aashiqui 2
+Track: 11
+Date: 2013
+Genre: Bollywood Music
+Composer: Music: Mithoon, Jeet Ganguly, Ankit Tiwari
+Performer: www.Songs.PK
+Performer: www.Songs.PK
+mtime: 1388816546
+song_end
+end: aashiqui2
+song_begin: aaj.mp3
+Time: 333
+Artist: KAVITA KRISHNAMURTI
+Album: KHAMOSHI
+mtime: 1388542698
+song_end

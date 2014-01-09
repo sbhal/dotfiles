@@ -195,3 +195,8 @@ let g:tex_flavor='latex'
 
 let g:Tex_DefaultTargetFormat='pdf'
 let g:Tex_CompileRule_pdf = 'xelatex -interaction=nonstopmode $*'
+
+
+" Allow saving of files as sudo when I forgot to start vim using sudo
+" tee sends the output to both standard output and file also.
+cmap w!! w !sudo tee > /dev/null %

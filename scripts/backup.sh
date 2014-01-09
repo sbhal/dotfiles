@@ -14,9 +14,12 @@ rsync -az $sdir/.xmodmap $ddir/
 rsync -az $sdir/.inputrc $ddir/
 rsync -az $sdir/.bashrc $ddir/
 rsync -az $sdir/.vimrc $ddir/
+rsync -az $sdir/.gitconfig $ddir/
 
 rsync -az -r $sdir/.emacs.d $ddir/
 rsync -az -r $sdir/.vim $ddir/
+rsync -az -r $sdir/.mpd $ddir/
+rsync -az -r $sdir/.ncmpcpp $ddir/
 
 
 sdir="/home/sbhal/.config"
@@ -67,6 +70,11 @@ echo "        $sdir ---> $ddir"
 mkdir -vp $ddir
 rsync -az -r $sdir/loader $ddir/
 
+sdir="/etc/systemd/system"
+ddir="$ddot$sdir"
+echo "        $sdir ---> $ddir"
+mkdir -vp $ddir
+rsync -az -r $sdir $ddir/
 
 sdir="/etc/netctl"
 ddir="$ddot$sdir"

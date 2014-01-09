@@ -1,0 +1,9 @@
+[core]
+	editor = vim
+[user]
+	name = Siddharth Bhal
+	email = siddharth0bhal@gmail.com
+[color]
+	ui = true
+[push]
+	default = simple

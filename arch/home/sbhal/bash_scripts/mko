@@ -1,0 +1,35 @@
+#!/bin/bash 
+echo '-----------------Always Check Disk Quota befor Building!---------------------------------'
+echo ''
+echo '1. SP s72033-adventerprisek9_dbg-mz  LEGOFILTER="adventerprisek9_dbg_cygnus_ucode_bndl.o"'
+echo '2. RP s72033_rp-adventerprisek9_dbg-m.ucode '
+echo '3. x40g-dwdbg-m.ucode'
+echo '4. SP rsp72043-adventerprisek9_dbg-mz' 
+echo '5. RP rsp72043_rp-adventerprisek9_dbg-m.ucode'
+echo '6. CHEVYS_BUILD=no ... SMSC_BUILD=no s72033-adventerprisek9_dbg-mz BIN_SUFFIX=.100 2>~/error_rp'
+
+read OPT;
+
+if [ $OPT = "1" ] 
+then
+echo 'make -j8 s72033-adventerprisek9_dbg-mz BUNDLE_ONLY=yes LEGOFILTER="adventerprisek9_dbg_cygnus_ucode_bndl.o" BIN_SUFFIX=. 2>~/error' 
+elif [ $OPT = "2" ] 
+then
+echo 'make -j8 s72033_rp-adventerprisek9_dbg-m.ucode LEGOFILTER="" BIN_SUFFIX=. 2>~/error'
+elif [ $OPT = "3" ] 
+then
+echo 'make -j8 x40g-dwdbg-m.ucode BIN_SUFFIX=. 2>~/error'
+elif [ $OPT = "4" ] 
+then
+echo 'make -j8 rsp72043-adventerprisek9_dbg-mz BUNDLE_ONLY=yes LEGOFILTER="adventerprisek9_dbg_cygnus_ucode_bndl.o" BIN_SUFFIX=. 2>~/error'
+elif [ $OPT = "5" ] 
+then
+echo 'make -j8 rsp72043_rp-adventerprisek9_dbg-m.ucode LEGOFILTER="" BIN_SUFFIX=. 2>~/error'
+elif [ $OPT = "6" ] 
+then
+echo 'make -j8 CHEVYS_BUILD=no C2LC_BUILD=no CWPA_BUILD=no CWTLC_BUILD=no CWPA2_BUILD=no SIP1_BUILD=no SIP2_BUILD=no SIP10G_BUILD=no SMSC_BUILD=no X40G_BUILD=no s72033-adventerprisek9_dbg-mz BIN_SUFFIX=. 2>~/error'
+elif [ 1 ]
+then
+exit 0
+fi
+
