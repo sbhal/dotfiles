@@ -436,4 +436,4 @@ set list listchars=tab:\|_,trail:.
 set list lcs=trail:·,tab:»·
 "set list
 
-source ~/.vim/unity_vimrc
+source ~/.vimrc_unity
