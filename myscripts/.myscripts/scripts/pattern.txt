@@ -1,0 +1,10 @@
+-wpa_supplicant
+wlan
+wcnss
+subsys-restart
+PRONTO
+vishu
+ASSERT
+<1>
+<2>
+driver loaded

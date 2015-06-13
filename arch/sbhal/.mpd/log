@@ -1,0 +1,334 @@
+Jan 06 00:05 : update: Failed to stat /home/sbhal/music: No such file or directory
+Jan 06 01:16 : avahi: Initializing interface
+Jan 06 01:16 : avahi: Client changed to state 101
+Jan 06 01:16 : avahi: Client is CONNECTING
+Jan 06 01:16 : state_file: Loading state file /home/sbhal/.mpd/state
+Jan 06 01:19 : client: [0] opened from 127.0.0.1:36794
+Jan 06 01:19 : client: [0] process command "status"
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:19 : client: [0] process command "plchanges "0""
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:19 : client: [0] process command "status"
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:19 : client: [0] process command "decoders"
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:19 : client: [0] process command "lsinfo "/""
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:19 : client: [0] process command "lsinfo "/""
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:19 : client: [0] process command "setvol "94""
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "status"
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:19 : client: [0] process command "status"
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:19 : client: [0] process command "setvol "93""
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "status"
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:19 : client: [0] process command "status"
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:19 : client: [0] process command "setvol "92""
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "status"
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:19 : client: [0] process command "status"
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:19 : client: [0] process command "setvol "91""
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "status"
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:19 : client: [0] process command "status"
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:19 : client: [0] process command "search any "aa""
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:19 : client: [0] process command "setvol "92""
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "status"
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:19 : client: [0] process command "status"
+Jan 06 01:19 : client: [0] command returned 0
+Jan 06 01:19 : client: [0] process command "idle"
+Jan 06 01:19 : client: [0] command returned 1
+Jan 06 01:20 : client: [0] process command "lsinfo "/""
+Jan 06 01:20 : client: [0] command returned 0
+Jan 06 01:20 : client: [0] process command "idle"
+Jan 06 01:20 : client: [0] command returned 1
+Jan 06 01:20 : client: [0] process command "lsinfo "/""
+Jan 06 01:20 : client: [0] command returned 0
+Jan 06 01:20 : client: [0] process command "idle"
+Jan 06 01:20 : client: [0] command returned 1
+Jan 06 01:20 : client: [0] process command "lsinfo "/""
+Jan 06 01:20 : client: [0] command returned 0
+Jan 06 01:20 : client: [0] process command "idle"
+Jan 06 01:20 : client: [0] command returned 1
+Jan 06 01:20 : client: [0] process command "setvol "91""
+Jan 06 01:20 : client: [0] command returned 0
+Jan 06 01:20 : client: [0] process command "status"
+Jan 06 01:20 : client: [0] command returned 0
+Jan 06 01:20 : client: [0] process command "idle"
+Jan 06 01:20 : client: [0] command returned 1
+Jan 06 01:20 : client: [0] process command "status"
+Jan 06 01:20 : client: [0] command returned 0
+Jan 06 01:20 : client: [0] process command "idle"
+Jan 06 01:20 : client: [0] command returned 1
+Jan 06 01:20 : client: [0] process command "update "/""
+Jan 06 01:20 : update: spawned thread for update job id 1
+Jan 06 01:20 : client: [0] command returned 0
+Jan 06 01:20 : update: starting
+Jan 06 01:20 : client: [0] process command "status"
+Jan 06 01:20 : client: [0] command returned 0
+Jan 06 01:20 : update: reading /aaj.mp3
+Jan 06 01:20 : client: [0] process command "idle"
+Jan 06 01:20 : client: [0] command returned 1
+Jan 06 01:20 : update: added /aaj.mp3
+Jan 06 01:20 : update: reading aashiqui2/[Songs.PK] Aashiqui 2 - 01 - Tum Hi Ho.mp3
+Jan 06 01:20 : mad: detected LAME version 3.99 ("LAME3.99r")
+Jan 06 01:20 : mad: LAME peak found: 0.000000
+Jan 06 01:20 : mad: encoder delay is 576, encoder padding is 927
+Jan 06 01:20 : update: added aashiqui2/[Songs.PK] Aashiqui 2 - 01 - Tum Hi Ho.mp3
+Jan 06 01:20 : update: reading aashiqui2/[Songs.PK] Aashiqui 2 - 07 - Bhula Dena.mp3
+Jan 06 01:20 : client: [0] process command "status"
+Jan 06 01:20 : client: [0] command returned 0
+Jan 06 01:20 : client: [0] process command "idle"
+Jan 06 01:20 : client: [0] command returned 1
+Jan 06 01:20 : mad: detected LAME version 3.99 ("LAME3.99r")
+Jan 06 01:20 : mad: LAME peak found: 0.000000
+Jan 06 01:20 : mad: encoder delay is 576, encoder padding is 1113
+Jan 06 01:20 : update: added aashiqui2/[Songs.PK] Aashiqui 2 - 07 - Bhula Dena.mp3
+Jan 06 01:20 : update: reading aashiqui2/[Songs.PK] Aashiqui 2 - 04 - Hum Mar Jayenge.mp3
+Jan 06 01:20 : mad: detected LAME version 3.99 ("LAME3.99r")
+Jan 06 01:20 : mad: LAME peak found: 0.000000
+Jan 06 01:20 : mad: encoder delay is 576, encoder padding is 970
+Jan 06 01:20 : update: added aashiqui2/[Songs.PK] Aashiqui 2 - 04 - Hum Mar Jayenge.mp3
+Jan 06 01:20 : update: reading aashiqui2/[Songs.PK] Aashiqui 2 - 03 - Chahun Main Ya Naa.mp3
+Jan 06 01:20 : mad: detected LAME version 3.99 ("LAME3.99r")
+Jan 06 01:20 : mad: LAME peak found: 0.000000
+Jan 06 01:20 : mad: encoder delay is 576, encoder padding is 636
+Jan 06 01:20 : update: added aashiqui2/[Songs.PK] Aashiqui 2 - 03 - Chahun Main Ya Naa.mp3
+Jan 06 01:20 : update: reading aashiqui2/[Songs.PK] Aashiqui 2 - 11 - Aashiqui - The Love Theme.mp3
+Jan 06 01:20 : mad: detected LAME version 3.99 ("LAME3.99r")
+Jan 06 01:20 : mad: LAME peak found: 0.000000
+Jan 06 01:20 : mad: encoder delay is 576, encoder padding is 1331
+Jan 06 01:20 : update: added aashiqui2/[Songs.PK] Aashiqui 2 - 11 - Aashiqui - The Love Theme.mp3
+Jan 06 01:20 : update: reading aashiqui2/[Songs.PK] Aashiqui 2 - 08 - Aasan Nahin Yahan.mp3
+Jan 06 01:20 : mad: detected LAME version 3.99 ("LAME3.99r")
+Jan 06 01:20 : mad: LAME peak found: 0.000000
+Jan 06 01:20 : mad: encoder delay is 576, encoder padding is 972
+Jan 06 01:20 : update: added aashiqui2/[Songs.PK] Aashiqui 2 - 08 - Aasan Nahin Yahan.mp3
+Jan 06 01:20 : update: reading aashiqui2/[Songs.PK] Aashiqui 2 - 02 - Sunn Raha Hai.mp3
+Jan 06 01:20 : mad: detected LAME version 3.99 ("LAME3.99r")
+Jan 06 01:20 : mad: LAME peak found: 0.000000
+Jan 06 01:20 : mad: encoder delay is 576, encoder padding is 1483
+Jan 06 01:20 : update: added aashiqui2/[Songs.PK] Aashiqui 2 - 02 - Sunn Raha Hai.mp3
+Jan 06 01:20 : update: reading aashiqui2/[Songs.PK] Aashiqui 2 - 10 - Milne Hai Mujhse Aayi.mp3
+Jan 06 01:20 : mad: detected LAME version 3.99 ("LAME3.99r")
+Jan 06 01:20 : mad: LAME peak found: 0.000000
+Jan 06 01:20 : mad: encoder delay is 576, encoder padding is 1131
+Jan 06 01:20 : update: added aashiqui2/[Songs.PK] Aashiqui 2 - 10 - Milne Hai Mujhse Aayi.mp3
+Jan 06 01:20 : update: reading aashiqui2/[Songs.PK] Aashiqui 2 - 09 - Sunn Raha Hai - Female.mp3
+Jan 06 01:20 : mad: detected LAME version 3.99 ("LAME3.99r")
+Jan 06 01:20 : mad: LAME peak found: 0.000000
+Jan 06 01:20 : mad: encoder delay is 576, encoder padding is 1218
+Jan 06 01:20 : update: added aashiqui2/[Songs.PK] Aashiqui 2 - 09 - Sunn Raha Hai - Female.mp3
+Jan 06 01:20 : update: reading aashiqui2/[Songs.PK] Aashiqui 2 - 06 - Piya Aaye Na.mp3
+Jan 06 01:20 : mad: detected LAME version 3.99 ("LAME3.99r")
+Jan 06 01:20 : mad: LAME peak found: 0.000000
+Jan 06 01:20 : mad: encoder delay is 576, encoder padding is 1679
+Jan 06 01:20 : update: added aashiqui2/[Songs.PK] Aashiqui 2 - 06 - Piya Aaye Na.mp3
+Jan 06 01:20 : update: reading aashiqui2/[Songs.PK] Aashiqui 2 - 05 - Meri Aashiqui.mp3
+Jan 06 01:20 : mad: detected LAME version 3.99 ("LAME3.99r")
+Jan 06 01:20 : mad: LAME peak found: 0.000000
+Jan 06 01:20 : mad: encoder delay is 576, encoder padding is 1184
+Jan 06 01:20 : update: added aashiqui2/[Songs.PK] Aashiqui 2 - 05 - Meri Aashiqui.mp3
+Jan 06 01:20 : simple_db: removing empty directories from DB
+Jan 06 01:20 : simple_db: sorting DB
+Jan 06 01:20 : simple_db: writing DB
+Jan 06 01:20 : update: finished
+Jan 06 01:20 : client: [0] process command "status"
+Jan 06 01:20 : client: [0] command returned 0
+Jan 06 01:20 : client: [0] process command "idle"
+Jan 06 01:20 : client: [0] command returned 1
+Jan 06 01:21 : client: [0] process command "lsinfo "/""
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : client: [0] process command "idle"
+Jan 06 01:21 : client: [0] command returned 1
+Jan 06 01:21 : client: [0] process command "addid "aaj.mp3""
+Jan 06 01:21 : playlist: add to playlist: aaj.mp3
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : client: [0] process command "playid "1""
+Jan 06 01:21 : playlist: play 0:"aaj.mp3"
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : decoder_thread: probing plugin mad
+Jan 06 01:21 : client: [0] process command "status"
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : client: [0] process command "currentsong"
+Jan 06 01:21 : decoder: audio_format=44100:24:2, seekable=true
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : client: [0] process command "idle"
+Jan 06 01:21 : client: [0] command returned 1
+Jan 06 01:21 : alsa_output: opened default type=HW
+Jan 06 01:21 : alsa_output: format=S32_LE (Signed 32 bit Little Endian)
+Jan 06 01:21 : alsa_output: buffer: size=32..524288 time=725..11888617
+Jan 06 01:21 : alsa_output: period: size=16..262144 time=362..5944309
+Jan 06 01:21 : alsa_output: default period_time = buffer_time/4 = 499954/4 = 124988
+Jan 06 01:21 : alsa_output: buffer_size=22048 period_size=11024
+Jan 06 01:21 : output: opened plugin=alsa name="HD Audio Generic" audio_format=44100:32:2
+Jan 06 01:21 : output: converting from 44100:24:2
+Jan 06 01:21 : client: [0] process command "plchanges "2""
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : client: [0] process command "idle"
+Jan 06 01:21 : client: [0] command returned 1
+Jan 06 01:21 : client: [0] process command "currentsong"
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : client: [0] process command "idle"
+Jan 06 01:21 : client: [0] command returned 1
+Jan 06 01:21 : client: [0] process command "lsinfo "aashiqui2""
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : client: [0] process command "idle"
+Jan 06 01:21 : client: [0] command returned 1
+Jan 06 01:21 : client: [0] process command "lsinfo "/""
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : client: [0] process command "idle"
+Jan 06 01:21 : client: [0] command returned 1
+Jan 06 01:21 : client: [0] process command "lsinfo "aashiqui2""
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : client: [0] process command "idle"
+Jan 06 01:21 : client: [0] command returned 1
+Jan 06 01:21 : client: [0] process command "addid "aashiqui2/[Songs.PK] Aashiqui 2 - 01 - Tum Hi Ho.mp3""
+Jan 06 01:21 : playlist: add to playlist: aashiqui2/[Songs.PK] Aashiqui 2 - 01 - Tum Hi Ho.mp3
+Jan 06 01:21 : playlist: queue song 1:"aashiqui2/[Songs.PK] Aashiqui 2 - 01 - Tum Hi Ho.mp3"
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : client: [0] process command "playid "2""
+Jan 06 01:21 : playlist: play 1:"aashiqui2/[Songs.PK] Aashiqui 2 - 01 - Tum Hi Ho.mp3"
+Jan 06 01:21 : player: played "aaj.mp3"
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : decoder_thread: probing plugin mad
+Jan 06 01:21 : client: [0] process command "status"
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : client: [0] process command "currentsong"
+Jan 06 01:21 : mad: detected LAME version 3.99 ("LAME3.99r")
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : mad: LAME peak found: 0.000000
+Jan 06 01:21 : mad: encoder delay is 576, encoder padding is 927
+Jan 06 01:21 : decoder: audio_format=44100:24:2, seekable=true
+Jan 06 01:21 : client: [0] process command "idle"
+Jan 06 01:21 : client: [0] command returned 1
+Jan 06 01:21 : client: [0] process command "plchanges "3""
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : client: [0] process command "idle"
+Jan 06 01:21 : client: [0] command returned 1
+Jan 06 01:21 : client: [0] process command "currentsong"
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : client: [0] process command "idle"
+Jan 06 01:21 : client: [0] command returned 1
+Jan 06 01:21 : state_file: Saving state file /home/sbhal/.mpd/state
+Jan 06 01:21 : client: [0] process command "addid "aashiqui2/[Songs.PK] Aashiqui 2 - 11 - Aashiqui - The Love Theme.mp3""
+Jan 06 01:21 : playlist: add to playlist: aashiqui2/[Songs.PK] Aashiqui 2 - 11 - Aashiqui - The Love Theme.mp3
+Jan 06 01:21 : playlist: queue song 2:"aashiqui2/[Songs.PK] Aashiqui 2 - 11 - Aashiqui - The Love Theme.mp3"
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : client: [0] process command "status"
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : client: [0] process command "currentsong"
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : client: [0] process command "idle"
+Jan 06 01:21 : client: [0] command returned 1
+Jan 06 01:21 : client: [0] process command "plchanges "4""
+Jan 06 01:21 : client: [0] command returned 0
+Jan 06 01:21 : client: [0] process command "idle"
+Jan 06 01:21 : client: [0] command returned 1
+Jan 06 01:21 : client: [0] closed
+Jan 06 01:22 : client: [1] opened from 127.0.0.1:36800
+Jan 06 01:22 : client: [1] process command "status"
+Jan 06 01:22 : client: [1] command returned 0
+Jan 06 01:22 : client: [1] process command "currentsong"
+Jan 06 01:22 : client: [1] command returned 0
+Jan 06 01:22 : client: [1] process command "idle"
+Jan 06 01:22 : client: [1] command returned 1
+Jan 06 01:22 : client: [1] process command "plchanges "0""
+Jan 06 01:22 : client: [1] command returned 0
+Jan 06 01:22 : client: [1] process command "idle"
+Jan 06 01:22 : client: [1] command returned 1
+Jan 06 01:22 : client: [1] process command "currentsong"
+Jan 06 01:22 : client: [1] command returned 0
+Jan 06 01:22 : client: [1] process command "idle"
+Jan 06 01:22 : client: [1] command returned 1
+Jan 06 01:22 : client: [1] process command "status"
+Jan 06 01:22 : client: [1] command returned 0
+Jan 06 01:22 : client: [1] process command "idle"
+Jan 06 01:22 : client: [1] command returned 1
+Jan 06 01:22 : client: [1] process command "setvol "92""
+Jan 06 01:22 : client: [1] command returned 0
+Jan 06 01:22 : client: [1] process command "status"
+Jan 06 01:22 : client: [1] command returned 0
+Jan 06 01:22 : client: [1] process command "idle"
+Jan 06 01:22 : client: [1] command returned 1
+Jan 06 01:22 : client: [1] process command "status"
+Jan 06 01:22 : client: [1] command returned 0
+Jan 06 01:22 : client: [1] process command "idle"
+Jan 06 01:22 : client: [1] command returned 1
+Jan 06 01:25 : decoder_thread: probing plugin mad
+Jan 06 01:25 : mad: detected LAME version 3.99 ("LAME3.99r")
+Jan 06 01:25 : mad: LAME peak found: 0.000000
+Jan 06 01:25 : mad: encoder delay is 576, encoder padding is 1331
+Jan 06 01:25 : decoder: audio_format=44100:24:2, seekable=true
+Jan 06 01:26 : player: played "aashiqui2/[Songs.PK] Aashiqui 2 - 01 - Tum Hi Ho.mp3"
+Jan 06 01:26 : client: [1] process command "status"
+Jan 06 01:26 : client: [1] command returned 0
+Jan 06 01:26 : client: [1] process command "currentsong"
+Jan 06 01:26 : client: [1] command returned 0
+Jan 06 01:26 : client: [1] process command "idle"
+Jan 06 01:26 : client: [1] command returned 1
+Jan 06 01:26 : client: [1] process command "status"
+Jan 06 01:26 : client: [1] command returned 0
+Jan 06 01:26 : client: [1] process command "idle"
+Jan 06 01:26 : client: [1] command returned 1
+Jan 06 01:28 : player: played "aashiqui2/[Songs.PK] Aashiqui 2 - 11 - Aashiqui - The Love Theme.mp3"
+Jan 06 01:28 : playlist: stop
+Jan 06 01:28 : output: closed plugin=alsa name="HD Audio Generic"
+Jan 06 01:28 : client: [1] process command "status"
+Jan 06 01:28 : client: [1] command returned 0
+Jan 06 01:28 : client: [1] process command "idle"
+Jan 06 01:28 : client: [1] command returned 1
+Jan 06 01:31 : client: [1] closed
+Jan 06 01:31 : avahi: Client changed to state 100
+Jan 06 01:31 : avahi: Client Disconnected, will reconnect shortly
+Jan 06 01:31 : avahi: Could not reconnect: An unexpected D-Bus error occured
+Jan 06 01:31 : state_file: Saving state file /home/sbhal/.mpd/state
+Jan 06 01:31 : avahi: Shutting down interface
+Jan 06 01:31 : listen: listen_global_finish called
+Jan 06 01:31 : main: db_finish took 0.000022 seconds

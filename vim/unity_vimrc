@@ -1,0 +1,124 @@
+"" replacing unite with ctrl-p
+let g:unite_data_directory='~/.vim/.cache/unite'
+let g:unite_enable_start_insert=0
+let g:unite_source_history_yank_enable=1
+"let g:unite_split_rule='botright'
+
+call unite#filters#matcher_default#use(['matcher_fuzzy'])
+call unite#custom#source('grep,line,codesearch', 'matchers', 'matcher_fuzzy')
+" sorting is slow. don't enable
+"call unite#filters#sorter_default#use(['sorter_rank'])
+call unite#custom#source('gtags/grep,gtags/file','sorters','sorter_rank', )
+"start insert
+"call unite#custom#profile('default', 'context', {'start_insert': 1})
+" Like ctrlp.vim settings.
+if exists("*unite#custom#profile")
+call unite#custom#profile('default', 'context', {
+            \   'unite_prompt' : '» ',
+            \   'start_insert': 0,
+            \   'ignorecase': 1,
+            \   'smartcase': 1,
+            \   'auto-resize': 1,
+            \   'direction': 'botright',
+            \   })
+"            \   'previewheight': 30,
+"            \   'winheight': 30,
+"            \   'winwidth': 120,
+"            \   'direction': 'botright',
+"            \   'vertical-preview': 1,
+"            \   'direction': 'right',
+endif
+
+"<C-u> is used to remove ranges like </,/> when going in ex mode if visual selection is there.
+" prefix
+"nmap <Space> [unite]
+nmap <Leader> [unite]
+nnoremap <silent> [unite]f :Unite -toggle -start-insert -auto-resize -buffer-name=files file_rec/async:!<CR>
+nnoremap <silent> [unite]g :Unite -toggle -start-insert -auto-resize -buffer-name=files file_rec/git<CR>
+nnoremap <silent> [unite]m :Unite -toggle -auto-resize -buffer-name=recent file_mru<CR>
+nnoremap <silent> [unite]b :Unite -no-split -no-start-insert -buffer-name=buffer buffer<CR>
+"nnoremap <silent> [unite]/ :Unite -auto-resize -start-insert -auto-highlight -buffer-name=line line<CR>
+nnoremap <silent> [unite]y :Unite -no-start-insert history/yank<cr>
+
+set csprg=gtags-cscope
+cscope add $GTAGSROOT/GTAGS
+
+"nnoremap <leader>gg :execute 'Unite -immediately gtags/def:'.expand('<cword>')<CR>
+"nnoremap <leader>jj :execute 'Unite -immediately gtags/def:'.expand('<cword>')<CR>
+nnoremap <leader>jj :execute 'Unite -immediately gtags/context'<CR>
+nnoremap <leader>kk <C-o><CR>
+nnoremap <leader>hh <C-o><CR>
+nnoremap <leader>ll <C-i><CR>
+nnoremap <leader>gg :execute 'Unite -immediately gtags/context'<CR>
+nnoremap <leader>gr :execute 'Unite -immediately gtags/ref'<CR>
+nnoremap <leader>ge :execute 'Unite gtags/grep'<CR>
+"vnoremap <leader>gg <ESC>:execute 'Unite gtags/def:'.GetVisualSelection()<CR>
+nnoremap <silent> [unite]/ :Unite -auto-resize -start-insert -auto-highlight -buffer-name=line gtags/file<CR>
+nnoremap <silent> [unite]j :Unite  -immediately gtags/def<CR>
+nnoremap <silent> [unite]t :Unite -start-insert -buffer-name=codesearch -auto-resize gtags/grep<CR>
+nnoremap <silent> [unite]T :Unite -start-insert -buffer-name=codesearch -auto-resize gtags/completion<CR>
+nnoremap <silent> [unite]8 :Unite -keep-focus -no-start-insert -buffer-name=search gtags/grep:'.expand('<cword>'<cr>
+
+"nnoremap <silent> [unite]tt :Unite -auto-resize -start-insert tag<CR>
+"nnoremap <silent> [unite]t :UniteWithCursorWord -auto-resize tag<CR>
+"cindex .       add current files and subdirs to index
+"cindex         refresh index
+"csearch        is case insensitive
+let g:unite_source_codesearch_ignore_case=1
+"let g:unite_source_codesearch_max_candidates=300
+let g:unite_source_codesearch_max_candidates=50
+nnoremap <silent> [unite]tt :Unite -auto-resize -start-insert -buffer-name=codesearch codesearch<CR>
+"nnoremap <silent> [unite]t :UniteWithCursorWord -no-start-insert -buffer-name=codesearch -no-quit -auto-resize codesearch<CR>
+
+nnoremap <silent> [unite]ma :Unite -auto-resize -buffer-name=mapping mapping<CR>
+nnoremap <silent> [unite]o :Unite -no-split -no-start-insert outline<CR>
+nnoremap <silent> [unite]r :<C-u>Unite -buffer-name=resume resume<CR>
+
+"nnoremap [unite]/ :Unite -no-quit -vertical-preview -buffer-name=search grep:.<cr>
+"nnoremap [unite]/ :Unite -auto-resize -start-insert -auto-preview line<CR>
+"nnoremap [unite]/ :Unite -no-quit -auto-resize -auto-highlight -no-start-insert -buffer-name=search grep:.<cr>
+"nnoremap [unite]8 :UniteWithCursorWord -no-quit -vertical-preview  -auto-highlight -keep-focus -no-start-insert -buffer-name=search grep:.<cr>
+nnoremap <silent> [unite]* :UniteWithCursorWord -no-quit -auto-highlight -keep-focus -no-start-insert -buffer-name=search grep:.<cr>
+"nnoremap [unite]8 :UniteWithCursorWord -no-quit -start-insert grep:.<cr>
+"unite functions to be called after plug#end()
+
+let g:ag_highlight=1
+if executable('ag')
+    " Use ag in unite grep source.
+    let g:unite_source_grep_command='ag'
+    let g:unite_source_grep_default_opts=
+                \ '-i --line-numbers --nocolor --nogroup --hidden --ignore ' .
+                \  '''.hg'' --ignore ''.svn'' --ignore ''.git'' --ignore ''.bzr'''
+    let g:unite_source_grep_recursive_opt=''
+elseif executable('ack')
+    let g:unite_source_grep_command='ack'
+    let g:unite_source_grep_default_opts='--no-heading -C4'
+    let g:unite_source_grep_recursive_opt=''
+endif
+" Custom mappings for the unite buffer
+autocmd FileType unite call s:unite_keymaps()
+
+function! s:unite_keymaps()
+     " Play nice with supertab
+    let b:SuperTabDisabled=1
+    " Enable navigation with control-j and control-k in insert mode
+    imap <buffer> <C-j> <Plug>(unite_select_next_line)
+    imap <buffer> <C-k> <Plug>(unite_select_previous_line)
+    imap <silent><buffer><expr> <C-s> unite#do_action('split')
+endfunction
+"call unite#custom_source('file_rec,file_rec/async', 'max_candidates', 200)
+call unite#custom_source('file_rec,file_rec/async,file_mru,file,buffer,grep',
+      \ 'ignore_pattern', join([
+      \ '\.git/',
+      \ 'tmp/',
+      \ 'node_modules/',
+      \ 'bower_components/',
+      \ 'dist/',
+      \ 'build/',
+      \ 'target/',
+      \ '\.idea/',
+      \ '\.gradle/',
+      \ '\.iml$'
+      \ ], '\|'))
+
+

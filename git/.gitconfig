@@ -1,0 +1,23 @@
+[color]
+	ui = auto
+[core]
+	editor = vim
+	filemode = false
+	pager = less -F -X
+[alias]
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	logd = log --decorate
+	dt = difftool
+	ap = "add --patch"
+[user]
+	name = Siddharth Bhal
+	email = sidd.bhal@gmail.com
+[init]
+	templatedir = ~/.git_template
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[merge]
+	conflictstyle = diff3
