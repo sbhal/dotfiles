@@ -1,3 +1,3 @@
-dotfiles-arch
+dotfiles
 =============
-These is my backup of dotfiles used for my arch setup. These mayn't be useful in first place but could be for reference purpose.
+I am now seperating dotfiles in seperate folder and these are no longer arch specific.
